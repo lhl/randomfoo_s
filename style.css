@@ -978,6 +978,14 @@ body {
   body {
     margin: 1em 0.5em;
   }
+
+  /* Otherwise Safari auto-scales... https://www.reddit.com/r/web_design/comments/3la04p/psa_safari_on_ios9_has_a_media_query_bug/ */
+  h2 { 
+    word-break: normal;
+  }
+  a {
+    word-break: break-all;
+  }
 }
 
 .site-title a {
