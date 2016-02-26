@@ -313,7 +313,7 @@ textarea {
 	color: #dfe1e8;
 	font-family: "Source Sans Pro", sans-serif;
 	font-size: 18px;
-	line-height: 1.5;
+	line-height: 1.6;
 }
 
 h1,
@@ -338,7 +338,6 @@ i {
 
 blockquote {
 	margin: 0 0.5em;
-	padding-left: 0.5em;
 	border-left: 4px solid #4f5b66;
 	padding-left: 0.5em;
 	background: #343d46;
@@ -398,7 +397,7 @@ html {
 }
 
 body {
-	background: #fff; /* Fallback for when there is no custom background color defined. */
+	background: #2b303b;
 }
 
 blockquote:before,
@@ -571,17 +570,18 @@ textarea {
 ## Links
 --------------------------------------------------------------*/
 a {
-	color: royalblue;
+	text-decoration: none;
+	color: #ebcb8b;
 }
 
 a:visited {
-	color: purple;
+	color: #d08770;
 }
 
 a:hover,
 a:focus,
 a:active {
-	color: midnightblue;
+	background: #4f5b66;
 }
 
 a:focus {
@@ -964,4 +964,128 @@ object {
 
 .gallery-caption {
 	display: block;
+}
+
+
+
+/*** lhl custom ***/
+body {
+  margin: 1em 4em;
+  max-width: 48em;
+}
+
+@media screen and (max-width: 1024px){
+  body {
+    margin: 1em 0.5em;
+  }
+}
+
+.site-title a {
+	text-decoration: none;
+}
+
+li {
+  margin-bottom: 8px;
+}
+
+.cat-links {
+  font-size: 0.9em;
+}
+
+.comments-link {
+  display: none;
+}
+
+.post-edit-link {
+  background: #4f5b66;
+  color: #a3be8c!important;
+  padding: 1px 5px;
+  margin: 20px;
+  font-size: 0.9em;
+}
+
+.entry-title, .entry-header a {
+  color: #a3be8c;
+}
+
+h2.entry-title {
+  margin-top: 2em;
+  margin-bottom: 0;
+}
+
+.entry-meta {
+  font-size: 0.9em;
+}
+
+.entry-content {
+  margin-top: 1em;
+}
+
+ul {
+ margin-left: 0;
+}
+
+
+/* MP3 Playlists */
+
+ul.playlist {
+ list-style-type:none;
+ margin:0px;
+ padding:0px;
+}
+
+ul.playlist li {
+ margin-bottom:2px;
+ border:2px solid #444;
+ background-color:#444;
+ -moz-border-radius:3px;
+ -webkit-border-radius:3px;
+ border-radius:3px;
+ padding:3px 3px 3px 3px;
+ color: #111;
+ font-weight: bold;
+}
+
+ul.playlist li a,
+ul.playlist li a.sm2_link {
+ text-decoration: none;
+ display:inline-block;
+ color:#fff;
+}
+
+ul.playlist li a.sm2_link {
+ padding-left:22px;
+}
+ul.playlist li a:hover {
+  background-color: #666;
+}
+
+ul.playlist li a.sm2_link {
+ /* safari 3.1+ fun (or, proprietary crap. TBD.) */
+ -webkit-transition-property: hover;
+ -webkit-transition: all 0.15s ease-in-out;
+}
+
+ul.playlist li a.sm2_link:hover {
+ background:#444 url(/music/icon_play.png) no-repeat 0px 50%;
+ _background-image:url(/music/icon_play.gif); /* IE 6 */
+ border-color:#444;
+}
+
+ul.playlist li.sm2_paused {
+ background:#666 url(/music/icon_pause.png) no-repeat 0px 50%;
+ _background-image:url(/music/icon_pause.gif);
+ border-color:#666;
+}
+
+ul.playlist li.sm2_paused a.sm2_link:hover {
+ background-image:url(/music/icon_play.png);
+ _background-image:url(/music/icon_play.gif);
+}
+
+ul.playlist li.sm2_playing,
+ul.playlist li.sm2_playing a.sm2_link:hover {
+ background:#149ce0 url(/music/icon_pause.png) no-repeat 0px 50%;
+ _background-image:url(/music/icon_pause.gif);
+ border-color:#149ce0;
 }
