@@ -23,6 +23,12 @@
 
 <script type="text/javascript" src="/music/soundmanager/script/soundmanager2-nodebug-jsmin.js"></script>
 <script type="text/javascript" src="/music/inlineplayer.js"></script>
+<script type="text/javascript">
+// Play everything pls
+soundManager.onready(function() {
+  inlinePlayer.config.playNext = true;
+});
+</script>
 
 </body>
 </html>
