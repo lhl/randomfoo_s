@@ -1013,7 +1013,7 @@ li {
   margin-bottom: 8px;
 }
 
-.cat-links {
+.cat-links, .tags-links {
   font-size: 0.9em;
 }
 
@@ -1025,7 +1025,6 @@ li {
   background: #4f5b66;
   color: #a3be8c!important;
   padding: 1px 5px;
-  margin: 20px;
   font-size: 0.9em;
 }
 
@@ -1049,6 +1048,20 @@ h2.entry-title {
 ul {
  margin-left: 0;
 }
+
+/*
+nav.navigation {
+  border-top: 2px solid #4f5b66;
+  border-top: 2px solid rgba(255,255,255,.2);
+}
+*/
+
+.nav-previous a, .nav-next a {
+  color: #a3be8c!important;
+  padding: 1px 5px;
+}
+
+
 
 
 /* MP3 Playlists */
