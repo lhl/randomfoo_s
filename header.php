@@ -35,9 +35,8 @@
                 </style>
                 <div id="usercard">
                   <img src="http://randomfoo.net/junk/avatars/me" class="bio" />
-                  <p><a href="http://randomfoo.net/">random($foo)</a> is the occassionally still updated blog of Leonard Lin. My pics on <a href="https://www.flickr.com/photos/lhl">Flickr</a>, code is on <a href="https://github.com/lhl">Github</a>. <a href="https://twitter.com/">@lhl</a> on Twitter. &nbsp; <a href="/about">More &raquo;</a></p>
+                  <p><a href="http://randomfoo.net/">random($foo)</a> is the occassionally still updated blog of Leonard Lin. My pics are on <a href="https://www.flickr.com/photos/lhl">Flickr</a>, code is on <a href="https://github.com/lhl">Github</a>. <a href="https://twitter.com/">@lhl</a> on Twitter. &nbsp; <a href="/about">More &raquo;</a></p>
                 </div>
-
 
 		<h1 class="site-title"><a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home"><span class="base0D">random</span><span class="base05">(</span><span class="base08">$foo</span><span class="base05">)</span></a></h1>
 			<?php
