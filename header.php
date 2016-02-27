@@ -30,6 +30,15 @@
 
 	<header id="masthead" class="site-header" role="banner">
 		<div class="site-branding">
+
+                <style>
+                </style>
+                <div id="usercard">
+                  <img src="http://randomfoo.net/junk/avatars/me" class="bio" />
+                  <p><a href="http://randomfoo.net/">random($foo)</a> is the occassionally still updated blog of Leonard Lin. My pics on <a href="https://www.flickr.com/photos/lhl">Flickr</a>, code is on <a href="https://github.com/lhl">Github</a>. <a href="https://twitter.com/">@lhl</a> on Twitter. &nbsp; <a href="/about">More &raquo;</a></p>
+                </div>
+
+
 		<h1 class="site-title"><a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home"><span class="base0D">random</span><span class="base05">(</span><span class="base08">$foo</span><span class="base05">)</span></a></h1>
 			<?php
 /*
@@ -47,11 +56,7 @@
 			endif; ?>
 		</div><!-- .site-branding -->
 
-                <!--
-		<nav id="site-navigation" class="main-navigation" role="navigation">
-			<button class="menu-toggle" aria-controls="primary-menu" aria-expanded="false"><?php esc_html_e( 'Primary Menu', 'randomfoo_s' ); ?></button>
-			<?php wp_nav_menu( array( 'theme_location' => 'primary', 'menu_id' => 'primary-menu' ) ); ?>
-		</nav><!-- #site-navigation -->
+
 	</header><!-- #masthead -->
 
 	<div id="content" class="site-content">
