@@ -348,7 +348,7 @@ address {
 }
 
 pre {
-	background: #1d1f21;
+	background: #1d1f21!important;
 	font-family: "Source Code Pro", "Courier 10 Pitch", Courier, monospace;
 	font-size: 13px;
 	font-size: 0.9375rem;
@@ -357,6 +357,9 @@ pre {
 	max-width: 100%;
 	overflow: auto;
 	padding: 1em;
+}
+pre code.hljs {
+	background: #1d1f21!important;
 }
 
 code,
@@ -454,6 +457,11 @@ img {
 table {
 	margin: 0 0 1.5em;
 	width: 100%;
+}
+
+td {
+	border: 1px solid #dfe1e8;
+	padding: 0 0.5em;
 }
 
 /*--------------------------------------------------------------
