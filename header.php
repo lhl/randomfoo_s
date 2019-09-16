@@ -16,8 +16,10 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="profile" href="http://gmpg.org/xfn/11">
 <link rel="pingback" href="<?php bloginfo( 'pingback_url' ); ?>">
+<!--
 <meta name="description" content="leonard lin's weblog.  topical geek news." />
 <meta name="keywords" content="leonard lin, weblog, drivel, random, foo, blog, blogs" />
+-->
 
 <link href='https://fonts.googleapis.com/css?family=Source+Code+Pro:500,700|Source+Sans+Pro:300,500,300italic,500italic' rel='stylesheet' type='text/css'>
 
